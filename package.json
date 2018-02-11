@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "Provide the google-java-format for Atom",
   "keywords": [],
-  "repository": "https://github.com/atom/google-java-format",
+  "repository": "https://github.com/ldlac/google-java-format-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

@@ -1,0 +1,17 @@
+{
+  "name": "google-java-format",
+  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Provide the google-java-format for Atom",
+  "keywords": [],
+  "repository": "https://github.com/atom/google-java-format",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}

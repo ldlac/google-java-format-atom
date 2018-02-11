@@ -1,7 +1,7 @@
 {
   "name": "google-java-format",
   "main": "index.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Provide the google-java-format for Atom",
   "keywords": [],
   "repository": "https://github.com/ldlac/google-java-format-atom",

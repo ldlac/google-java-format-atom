@@ -30,7 +30,7 @@ export default {
     if (extname(savedFile) !== ".java") {
       return;
     }
-    
+
     const command = "java -jar google-java-format-1.5-all-deps.jar --replace " + savedFile;
     const options = {cwd: __dirname, timeout: EXEC_TIMEOUT};
 
@@ -47,6 +47,9 @@ export default {
         atom.notifications.addError(message, {detail: error, dismissable: true});
       }
     });
+
+    atom.workspace.getActiveEditor().buffer.file.readSync(true);
+    atom.workspace.getActiveEditor().buffer.load();
   },
 
   about() {

@@ -31,7 +31,7 @@ export default {
       return;
     }
 
-    const command = "java -jar google-java-format-1.5-all-deps.jar --replace " + savedFile;
+    const command = "java -jar google-java-format-1.6-all-deps.jar --replace " + savedFile;
     const options = {cwd: __dirname, timeout: EXEC_TIMEOUT};
 
     exec(command, options, (err, stdout, stderr) => {
